@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accesos Rápidos a Servicios Públicos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            margin: 0;
+        }
+        .container {
+            margin-top: 30px;
+        }
+        .service-button {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 40px;
+            font-size: 18px;
+            margin: 10px;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+        .service-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Accesos Rápidos a Servicios Públicos</h1>
+
+    <div class="container">
+        <a href="https://telmex.com/web/hogar/mkt/home?pqi=PQI43&gclsrc=aw.ds&gad_source=1&gclid=Cj0KCQjwm7q-BhDRARIsACD6-fWr5Us5qNU-TWKeGrdmOkge3rCa9v7r9juKIqzkWm0-xHAoa9yKxIYaAiGqEALw_wcB" class="service-button" target="_blank">Pago de Internet</a>
+        <a href="https://www.cfe.mx/internet-para-todos/pages/default.aspx" class="service-button" target="_blank">Pago de Luz</a>
+        <a href="https://www.oosapat.gob.mx/" class="service-button" target="_blank">Pago de Agua</a>
+    </div>
+</body>
+</html>
